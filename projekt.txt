@@ -1,0 +1,51 @@
+Dodać galerię z moimi projektami
+
+MOBILE FIRST!!! - bez animacji skakającej strzałki (ale ze scrollem w dół)
+
+Strona główna, Portfolio (sekcja projekty), O mnie, Kontakt
+
+HEADER
+
+GRESKI WebDev (tytuł dwoma kolorami) +
+Witaj na mojej stronie! +
+
+Moje portfolio (przycisk) +
+
+tutaj strzałka w dół (scroll) +
+
+Menu hamburger wysuwane z prawej strony +
+
+Zastosować: 
+
+Header:
+- wyskakujący popup (opcjonalnie),
+- strzałka skacząca (lub podnosząca się do góry po najechaniu; tak jak w projekcie Mateusza Maja) na dole headera - po kliknięciu scroll w dół na pierwszą sekcję, +
+- PRZYCISK NA GÓRĘ STRONY!!!!!!!!!!!!! +
+- fixed menu po scrollu +
+
+Sekcja moje projekty: galeria projektów w postaci slidera (jak w Christmas Frenzy) bądź flex, +
+- podlinkować zdjęcia aby przenosiło użytkownika automatycznie na daną stronę; (póki co np. na GitHub Pages, bądź w href napisać ścieżkę lokalną)+
+- po kliknięciu na zdjęcie - ZOOM a po kliknięciu w tytuł link do strony +
+
+Sekcja motto: (początek sekcji O mnie - scroll po kliknięciu)
+- background attachment: fixed; +
+
+Sekcja about:
+- czym się zajmuję, czyli wziąć z poprzedniej wizytówki to samo tylko zrobić animacje wyjeżdżające na mobilne urządzenia;+
+- na desktop albo wyjeżdżanie, albo normalny układ bez animacji+
+- na mobile animacja cubic bezier+
+
+
+Sekcja hobby: 
+- moje hobby, co lubię robić w wolnym czasie; +
+- zrobić tak jak z wizytówki z tym że na mobilne ustawić transform: scale po kliknięciu + a na desktop background-size bądź transform: scale po najechaniu +
+
+
+Footer (kontakt): 
+- nowoczesny design, 
+- formularze kontaktowe bez tła, //
+- social media +
+
+SCROLL do FOOTERA + 
+
+

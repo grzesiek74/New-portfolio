@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRESKICODE</title>
+  <link rel="shortcut icon" href="webicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/59faaf9620.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/d98467416f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="goUp">
+    <a><i class="fas fa-chevron-up"></i></a>
+  </div>
+
+  <header id="home">
+    <div class="headerBg"></div>
+    <h1 class="title"><span>Cześć, tu </span>Grzesiek</h1>
+    <h2 class="secondTitle">Programista Java<span class="span-title">Script</span></h2>
+    <!-- <a class="portfolioBtn">zaczynamy</a> -->
+    <a href="#aboutme" class="downBtn"><i class="fas fa-chevron-down show"></i></a>
+    <div class="burger-bar">
+      <div class="logo">
+        <p class="logo-text">greski<span>code</span></p>
+      </div>
+      <div class="burger">
+        <i class="fas fa-bars show"></i>
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+  </header>
+
+  <aside>
+    <nav>
+      <ul class="navi">
+        <li><a class="mStart nav-link" href="#home">start</a></li>
+        <li><a class="mAbout nav-link" href="#aboutme">o mnie</a></li>
+        <li><a class="mSkills nav-link" href="#skills">umiejętności</a></li>
+        <li><a class="mPortfolio nav-link" href="#portfolio">portfolio</a></li>
+        <li><a class="mContact nav-link" href="#contact">kontakt</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <nav class="desktop">
+    <div class="logo">
+      <p class="logo-text">greski<span>code</span></p>
+    </div>
+    <ul class="naviDesktop">
+      <li><a class="dStart" href="#home">start</a></li>
+      <li><a class="dAbout" href="#aboutme">o mnie</a></li>
+      <li><a class="dSkills" href="#skills">umiejętności</a></li>
+      <li><a class="dPortfolio" href="#portfolio">portfolio</a></li>
+      <li><a class="dContact" href="#contact">kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section class="aboutme s2" id="aboutme">
+    <div class="about-container">
+      <div class="my-picture">
+        <img src="img/my-picture-min2.png" alt="my-photo">
+      </div>
+      <div class="my-info">
+        <h2>Cześć, nazywam się Grzesiek Duliński</h2>
+        <p class="bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam qui minima est totam tempore
+          facilis necessitatibus optio voluptatum sapiente! Aut quisquam culpa atque neque fugit voluptatibus similique
+          dolores asperiores consequuntur iste repudiandae quis consectetur qui expedita, corrupti quam veniam eos
+          tempora soluta doloribus et, quibusdam nesciunt, deleniti tenetur! Hic, soluta!</p>
+        <div class="my-data">
+          <div class="data-settings">
+            <p>Imię i nazwisko:</p>
+            <p>Wiek:</p>
+            <p>Adres:</p>
+            <p>Telefon:</p>
+            <p>Email:</p>
+          </div>
+          <div class="data-set">
+            <p> Grzegorz Duliński</p>
+            <p> 27</p>
+            <p> Pisz, Polska</p>
+            <p> +48 601 945 654</p>
+            <p> grzesiek746@gmail.com</p>
+          </div>
+        </div>
+        <a href="#" class="cv-btn">Pobierz CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="motto">
+    <div class="mottoBg">
+      <h1>Moje życiowe motto</h1>
+      <p class="text">Oprócz wyższego wykształcenia, dobrze byłoby posiadać jakieś średnie wyobrażenie. I co najmniej
+        podstawowe wychowanie.</p>
+      <p class="author">Andrzej Grabowski</p>
+    </div>
+  </section>
+
+  <section class="hobby">
+    <h1><span>Co lubię robić</span> w wolnym czasie</h1>
+    <div class="hobbyWrap">
+      <div class="like">
+        <p>Biegać</p>
+      </div>
+      <div class="like">
+        <p>Podróżować</p>
+      </div>
+      <div class="like">
+        <p>Programować</p>
+      </div>
+      <div class="like">
+        <p>Spotykać się ze znajomymi</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills s3" id="skills">
+    <div class="skills-bg"></div>
+    <h2 class="skills-title">Umiejętności</h2>
+    <div class="progress-cards">
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 80"></circle>
+          </svg>
+          <div class="number">
+            <h3>80<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-html5"></i></h2>
+          <p>HTML</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 65"></circle>
+          </svg>
+          <div class="number">
+            <h3>65<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-css3-alt"></i></h2>
+          <p>CSS</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 50"></circle>
+          </svg>
+          <div class="number">
+            <h3>50<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-js"></i></h2>
+          <p>JavaScript</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 55"></circle>
+          </svg>
+          <div class="number">
+            <h3>55<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-react"></i></h2>
+          <p>React</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 50"></circle>
+          </svg>
+          <div class="number">
+            <h3>50<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-node-js"></i></h2>
+          <p>Node.js</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 60"></circle>
+          </svg>
+          <div class="number">
+            <h3>60<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-php"></i></h2>
+          <p>PHP</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 70"></circle>
+          </svg>
+          <div class="number">
+            <h3>70<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-brands fa-bootstrap"></i></h2>
+          <p>Bootstrap</p>
+        </div>
+      </div>
+
+      <div class="progress-card">
+        <div class="percent">
+          <svg>
+            <circle cx="105" cy="105" r="100"></circle>
+            <circle cx="105" cy="105" r="100" style="--percent: 85"></circle>
+          </svg>
+          <div class="number">
+            <h3>85<span>%</span></h3>
+          </div>
+        </div>
+        <div class="title">
+          <h2><i class="fa-solid fa-database"></i></h2>
+          <p>MySQL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="work">
+    <h2>Czym się zajmuję</h2>
+    <div class="work-container">
+      <div class="work1">
+        <img src="img/services4.png" alt="">
+        <div class="work-desc">
+          <h3>Tworzenie stron WWW i aplikacji webowych</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero aperiam corporis, voluptates odit a
+            facilis modi porro magni nisi. Sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            ullam nam neque eos consectetur necessitatibus iste repellendus, fugiat consequuntur officia?</p>
+        </div>
+      </div>
+      <div class="work2">
+        <img src="img/services3.png" alt="">
+        <div class="work-desc">
+          <h3>Zarządzanie bazami danych</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, magni amet! Voluptatibus ratione
+            aliquam dolores vel, adipisci laboriosam perferendis et? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Temporibus laborum quis nam possimus natus quidem, ipsum repudiandae dicta veniam aspernatur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio s1" id="portfolio">
+    <h2 class="portfolioTitle">Moje projekty</h2>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="" target="_blank"><img src="img/project1.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="" target="_blank"><img src="img/project3.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="" target="_blank"><img src="img/project4.png" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="contact s4" id="contact">
+    <h2>Kontakt</h2>
+    <div class="contact-container">
+      <div class="form">
+        <form>
+          <input name="name" placeholder="Podaj swoje imię" class="name" required />
+          <input name="emailaddress" placeholder="Podaj swój email" class="email" type="email" required />
+          <textarea rows="4" cols="50" name="subject" placeholder="Wpisz swoją wiadomość" class="message"
+            required></textarea>
+          <input name="submit" class="btn" type="submit" value="Wyślij" />
+        </form>
+      </div>
+      <div class="media">
+        <h3>Social media</h3>
+        <div class="social-media">
+          <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="my-mail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+
+    <div class="copy">
+
+      <p>GRESKICODE - zapraszam do kontaktu! &copy 2022</p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
